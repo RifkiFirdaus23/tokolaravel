@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('css/Bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
 
     <title>Detail Pembeli</title>
   </head>
@@ -54,7 +54,7 @@
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  
-    <script src="{{asset('js/Bootstrap.js')}}"></script>
+
+    <script src="{{asset('js/bootstrap.js')}}"></script>
   </body>
 </html>
