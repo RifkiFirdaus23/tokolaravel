@@ -12,7 +12,7 @@ class BarangController extends Controller
 
       //mengambil data dari table barang
       $barang = DB::table('barang')->get();
-
+      DB::table('transaksi')->get();
 
 
       //mengirim data data barang ke index
