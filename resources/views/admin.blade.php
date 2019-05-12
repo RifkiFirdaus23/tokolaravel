@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>DashBoard Admin</title>
-      <link rel="stylesheet" href="css/Bootstrap.css">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="{{asset('css/Bootstrap.css')}}">
+    
   </head>
   <body>
     @extends('layouts.app')
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="modal-body">
                                   <form action="/admin/proses" method="post" enctype="multipart/form-data">
-                                
+
                                     {{csrf_field()}}
                                     <div class="form-group">
                                       <label for="exampleInputEmail1">Nama</label>
