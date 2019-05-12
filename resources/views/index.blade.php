@@ -102,6 +102,6 @@
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="{{asset('js/Bootstrap.js')}}"></script>
+    <script src="{{asset ('js/Bootstrap.js')}}"></script>
   </body>
 </html>
