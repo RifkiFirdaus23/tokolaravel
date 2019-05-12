@@ -58,12 +58,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "require": {
-    "laravel/framework": "5.0.*",
-    "darryldecode/cart": "dev-master"
-  }
-
-
-
+    }
 }
