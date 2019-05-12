@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/Bootstrap.css">
+    <link rel="stylesheet" href="{{asset('css/Bootstrap.css')}}">
 
     <title>Detail Pembeli</title>
   </head>
@@ -54,8 +54,8 @@
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.4.1.js"></script>
+    <script src="{{asset('js/jquery-3.4.1.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="js/Bootstrap.js"></script>
+    <script src="{{asset('js/Bootstrap.js')}}"></script>
   </body>
 </html>

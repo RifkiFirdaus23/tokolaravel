@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>DashBoard Admin</title>
       <link rel="stylesheet" href="{{asset('css/Bootstrap.css')}}">
-    
+
   </head>
   <body>
     @extends('layouts.app')
@@ -104,7 +104,7 @@
 
       @endsection
 
-      <script src="js/Bootstrap.js"></script>
+      <script src="{{asset('js/Bootstrap.js')}}"></script>
 
   </body>
 </html>
